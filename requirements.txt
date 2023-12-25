@@ -1,1 +1,7 @@
+pypdf
+python-dotenv
+llama-index
+einops
+accelerate
 llmware
+gradio
