@@ -1,0 +1,14 @@
+llama-index
+google-generativeai
+matplotlib
+ipython
+ftfy
+regex
+tqdm
+torch
+torchvision
+scikit-image
+qdrant_client
+streamlit
+watchdog
+git+https://github.com/openai/CLIP.git
