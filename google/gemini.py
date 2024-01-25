@@ -10,8 +10,6 @@ dotenv_path = Path('./.env')
 load_dotenv(dotenv_path=dotenv_path)  # add your GOOGLE API key here
 
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-
-
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"),transport='rest')
 
 for m in genai.list_models():
